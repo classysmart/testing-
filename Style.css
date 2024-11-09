@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-left: 2rem;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #ccc;
+}
+
+.home {
+    background: url('your-background-image.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 10rem 2rem;
+    margin-top: 5rem;
+}
+
+.home h1 {
+    font-size: 3rem;
+}
+
+.home p {
+    font-size: 1.25rem;
+    margin: 1rem 0;
+}
+
+.btn {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.about, .services, .testimonials, .contact {
+    padding: 5rem 2rem;
+    text-align: center;
+}
+
+.service, .testimonial {
+    margin: 2rem 0;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label {
+    margin: 0.5rem 0;
+}
+
+.contact-form input, .contact-form textarea {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    width: 100%;
+    max-width: 500px;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 5rem;
+}
